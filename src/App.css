@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  background-color : white;
+  padding: 5px;
+  border-radius: 5px;
+  margin : 1rem;
+  color: black;  
+  max-width: fit-content;
+  font-size: 3rem;
+}
+
+
+.buttons button {
+  font-size: 2rem;
+  color: black;
+  padding : .25rem .5rem;
+  margin: .5rem;
+  border-radius: 5px;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  width: 3rem;
+}
+
+.buttons .btnD{
+  background-color:red;
+}
+
+.buttons .btnI{
+  background-color:blue;
+}
+
+.notZero{
+  text-align: center;
+  color: red;
+}
